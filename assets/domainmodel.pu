@@ -1,0 +1,19 @@
+@startuml
+
+title "ドメインモデル"
+
+' class タスク {
+'   タスクID
+'   タスク名
+'   タスクステータス
+'   担当ユーザーID
+'   期日
+'   延期回数
+' }
+
+' タスク --> ユーザー
+' Class15 ..> Class16
+' Class17 ..|> Class18
+' Class19 <--* Class20
+
+@enduml

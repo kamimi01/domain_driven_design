@@ -1,0 +1,22 @@
+@startuml
+
+title "ユースケース図"
+
+left to right direction
+actor "作業者" as actor
+rectangle Restaurant {
+  usecase "タスクを登録する" as UC1
+  usecase "タスクを延期する" as UC2
+  usecase "タスクを完了する" as UC3
+  usecase "タスクの担当者を設定する" as UC4
+  usecase "タスクからカレンダーを登録する" as UC5
+}
+note right of Restaurant: モデリングのスコープ\nを決めることが重要
+actor --> UC1
+actor --> UC2
+actor --> UC3
+actor --> UC4
+actor --> UC5
+@enduml
+
+@enduml
